@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+body{ margin: 0 auto; padding: 0;}
+#app{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+   
+}
+#app article{max-width: 350px;
+    flex: 1;
+	margin: 5px;
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,0.13);;
+    border-radius: 10px;
+    text-align: center;
+    color:#989898;
+}
+.imagem img{max-width: 300px;}
+
+.titulo_produto{font-family: 'Poppins', sans-serif; font-size: 20px;}
+.corpo_produto{font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 14px;}
